@@ -1,0 +1,14 @@
+{
+  "name": "fr.openent~gate~1.0-SNAPSHOT",
+  "config": {
+    "main" : "fr.openent.gate.Gate",
+    "port" : 8056,
+    "host": "${host}",
+    "ssl" : $ssl,
+    "auto-redeploy": false,
+    "userbook-host": "${host}",
+    "mode" : "${mode}",
+    "publicConf": {
+    }
+  }
+}
